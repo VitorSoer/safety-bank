@@ -1,0 +1,43 @@
+:root{
+  --white: #FFFFFFD8;
+  --black: #181818;
+  --orange: linear-gradient(to right, #EB7000,#FF7A00);
+  --light-orange: #FF7A00;
+  --dark-orange: #EB7000;
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+
+  font-size: 62.5%; //10px
+  
+  @media only screen and (max-width: 1200px) {
+    font-size: 56.25%; // 9 px
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 43.75%; // 7 px
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 31.25%; // 5px
+  }
+  @media only screen and (max-width: 480px) {
+    font-size: 25%; // 4px
+  } 
+  @media only screen and (max-width: 300px) {
+    font-size: 18.75%; // 6px
+  } 
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+

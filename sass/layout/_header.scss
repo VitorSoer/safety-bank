@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  background: var(--light-orange);
+  color: var(--white);
+  font-size: 2.5rem;
+  height: 8rem;
+  width: 100%;
+  transition: all 0.5s;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 10rem;
+    margin: 0 auto;
+
+    @media only screen and (max-width: 380px) {
+      padding: 2rem;
+    }
+  }
+
+  &__logo {
+    color: var(--white);
+    font-size: 5rem;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.5s ease-out;
+    animation: moveDown 1s ease-out;
+    &:hover {
+      color: var(--black);
+    }
+
+    @media only screen and (max-width: 380px) {
+      font-size: 3.5rem;
+      padding-left: 2rem;
+    }
+  }
+}
+
+.nav {
+  animation: moveDown 1s ease-out;
+  &__list {
+    display: flex;
+    list-style: none;
+  }
+
+  &__link {
+    color: var(--white);
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 2.5rem;
+    transition: all 0.5s;
+
+    @media only screen and (max-width: 380px) {
+      margin: 0 2rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+      color: var(--black);
+    }
+  }
+}
+
+//Sticky menu
+.sticky {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  animation: smoothScroll 0.5s forwards;
+
+  @keyframes smoothScroll {
+    0% {
+      opacity: 50%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+}

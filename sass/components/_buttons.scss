@@ -1,0 +1,47 @@
+.btn--hover{
+    &:hover{
+        cursor: pointer;
+        letter-spacing: .5px;
+      }
+}
+
+.nav__item .btn-account {
+  background: var(--white);
+  color: var(--light-orange);
+  border-radius: 20px;
+  padding: 1rem 2rem;
+}
+
+.benefits-btn {
+  background-color: var(--white);
+  box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.3);
+  color: var(--black);
+  padding: 1rem 15rem;
+  border-radius: 50px;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.btn--close-modal {
+  font-family: inherit;
+  color: inherit;
+  position: absolute;
+  top: 0.5rem;
+  right: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.btn--continuar{
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--white);
+  background: var(--light-orange);
+  border-radius: 20px;
+  padding: 1.5rem 0;
+  width: 100%;
+  box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+}

@@ -1,0 +1,35 @@
+.footer {
+  height: 20rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo-footer {
+  color: var(--dark-orange);
+  font-size: 3.25rem;
+  transition: all .2s ease-out;
+}
+
+.nav-footer {
+  font-size: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  list-style: none;
+
+  &__links {
+    padding: 2rem;
+   
+    transition: all .2s ease-out;
+
+    &:hover{
+      cursor: pointer;
+      transform: translateY(-2px);
+      color: var(--light-orange);
+    }
+  }
+}
