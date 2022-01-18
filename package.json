@@ -10,5 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^7.0.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorSoer/front-end-projects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VitorSoer/front-end-projects/issues"
+  },
+  "homepage": "https://github.com/VitorSoer/front-end-projects#readme"
 }
