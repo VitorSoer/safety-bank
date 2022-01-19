@@ -5,7 +5,7 @@
 >Landing Page criada para fins expositivos, produto fictício, utilizado apenas para estudo.
 
 [![SCREEN](https://img.shields.io/badge/Preview_FullPage%20-%23323330.svg?&style=for-the-badge&logo=perfil&logoColor=black&color=6aa4f2)](https://github.com/VitorSoer/safety-bank/blob/main/img/safety-preview.png)
-[![DEMO](https://img.shields.io/badge/Veja_a_Demo_Aqui%20-%23323330.svg?&style=for-the-badge&logo=perfil&logoColor=black&color=FF0080)](vitorsoer.github.io/safety-bank/)
+[![DEMO](https://img.shields.io/badge/Veja_a_Demo_Aqui%20-%23323330.svg?&style=for-the-badge&logo=perfil&logoColor=black&color=FF0080)](https://vitorsoer.github.io/safety-bank)
 [![REPOSITÓRIOS](https://img.shields.io/badge/Veja_também...%20-%23323330.svg?&style=for-the-badge&logo=repositório&logoColor=black&color=8000FF)](https://github.com/VitorSoer?tab=repositories)
 
 #
