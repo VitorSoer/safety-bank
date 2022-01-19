@@ -1,7 +1,7 @@
 .btn--hover{
     &:hover{
         cursor: pointer;
-        letter-spacing: .5px;
+        filter: brightness(85%);
       }
 }
 

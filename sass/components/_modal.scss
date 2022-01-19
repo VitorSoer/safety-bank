@@ -3,7 +3,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 60rem;
+  width: 75rem;
+  height: 50rem;
   background-color: #f3f3f3;
   padding: 5rem 6rem;
   box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
@@ -12,6 +13,7 @@
   transition: all 0.5s;
 
   &__header {
+    text-align: center;
     font-size: 3.5rem;
     margin-bottom: 4.5rem;
   }
@@ -21,7 +23,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
   }
 }
 
