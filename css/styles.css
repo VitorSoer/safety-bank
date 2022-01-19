@@ -488,9 +488,12 @@ p {
     width: 100%;
     padding: 0 10rem;
     margin: 0 auto; }
-    @media only screen and (max-width: 380px) {
+    @media only screen and (max-width: 768px) {
       .header__wrapper {
-        padding: 2rem; } }
+        padding: 0 5rem; } }
+    @media only screen and (max-width: 480px) {
+      .header__wrapper {
+        padding: 0 2.5rem; } }
   .header__logo {
     color: var(--white);
     font-size: 5rem;
@@ -501,14 +504,9 @@ p {
     animation: moveDown 1s ease-out; }
     .header__logo:hover {
       color: var(--black); }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 480px) {
       .header__logo {
-        font-size: 3.5rem;
-        padding-left: 1rem; } }
-    @media only screen and (max-width: 230px) {
-      .header__logo {
-        font-size: 2.5rem;
-        padding-left: 1rem; } }
+        font-size: 3.5rem; } }
 
 .nav {
   animation: moveDown 1s ease-out; }
