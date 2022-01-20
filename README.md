@@ -1,6 +1,6 @@
 # Safety Bank - Banco Digital | HTML - CSS - JS -SASS
 
-<img width="750rem" src="https://github.com/VitorSoer/safety-bank/blob/main/img/safety-gif.gif" alt="exemplo imagem">
+<img width="750rem" src="https://github.com/VitorSoer/safety-bank/blob/main/img/safety.gif" alt="exemplo imagem">
 
 >Landing Page criada para fins expositivos, produto fictício, utilizado apenas para estudo.
 
