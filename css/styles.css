@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 :root {
   --white: #FFFFFFD8;
   --black: #181818;
@@ -31,7 +32,7 @@ html {
       font-size: 18.75%; } }
 
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Lato', sans-serif;
   box-sizing: border-box; }
 
 @keyframes moveInRight {
@@ -212,7 +213,7 @@ p {
   letter-spacing: 2px;
   color: #fff;
   text-align: center;
-  margin: 7.5rem 0 2.5rem 0; }
+  margin: 5rem 0 2.5rem 0; }
   @media only screen and (max-width: 600px) {
     .card_numer {
       font-size: 2rem; } }
@@ -244,14 +245,11 @@ p {
 .card__info {
   margin-bottom: 0;
   margin-top: 0.5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.8rem;
   color: #fff;
   letter-spacing: 1px;
   text-transform: uppercase; }
-  @media only screen and (max-width: 600px) {
-    .card__info {
-      font-size: 1.5rem; } }
   @media only screen and (max-width: 600px) {
     .card__info {
       font-size: 0.75rem; } }
@@ -707,4 +705,5 @@ p {
   width: 15rem; }
   .small-svg--icons {
     width: 55%;
-    fill: var(--black); }
+    fill: var(--black);
+    margin-bottom: 1rem; }
